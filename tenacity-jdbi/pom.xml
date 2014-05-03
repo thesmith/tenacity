@@ -3,7 +3,7 @@
     <parent>
         <artifactId>tenacity-parent</artifactId>
         <groupId>com.yammer.tenacity</groupId>
-        <version>0.2.5-SNAPSHOT</version>
+        <version>0.3.1-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
@@ -13,12 +13,10 @@
         <dependency>
             <groupId>com.yammer.tenacity</groupId>
             <artifactId>tenacity-core</artifactId>
-            <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>io.dropwizard</groupId>
             <artifactId>dropwizard-jdbi</artifactId>
-            <version>${dropwizard.version}</version>
         </dependency>
     </dependencies>
 </project>
